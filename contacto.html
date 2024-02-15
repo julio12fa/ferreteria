@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Ferretería</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .contact-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            animation: fadeIn 1s ease;
+            max-width: 600px;
+            width: 90%;
+            transform: rotate(-2deg); /* Inclinación */
+        }
+        h1 {
+            margin-top: 0;
+            color: #333;
+            font-size: 32px;
+            transform: rotate(2deg); /* Inclinación */
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* Sombra de texto */
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .contact-info {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transform: rotate(-2deg); /* Inclinación */
+        }
+        .contact-info p {
+            margin: 20px 0;
+            line-height: 1.6;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotate(2deg); /* Inclinación */
+        }
+        .contact-info p a {
+            margin-left: 10px;
+            font-weight: bold; /* Texto en negrita */
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact-info p a:hover {
+            color: #0056b3;
+        }
+        iframe {
+            border-radius: 10px;
+            border: none;
+            width: 100%;
+            max-width: 100%;
+            height: 400px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Contacto Ferretería</h1>
+        <div class="contact-info">
+            <p><span class="icon">📞</span> Teléfono: <a href="tel:+0923456789145">0923456789145</a></p>
+            <p><span class="icon">📧</span> Correo electrónico: <a href="mailto:ferri@gmail.com">ferri@gmail.com</a></p>
+            <p><span class="icon">📍</span> Dirección:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7957175440515!2d-78.4969704!3d-0.19286009999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a6a396e7a79%3A0xb00ae5ab53467167!2sInstituto%20Tecnol%C3%B3gico%20Quito!5e0!3m2!1ses-419!2sec!4v1707873437147!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>
